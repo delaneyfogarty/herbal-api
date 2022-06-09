@@ -1,0 +1,60 @@
+const herbs = [
+  {
+    id: '1',
+    name: 'Calendula',
+    scientific_name: 'Calendula officinalis',
+    healing_properties: 'antiseptic, detoxifying, antispasmodic',
+    direct_sunlight: true,
+    uses: 'tea for internal and external ailments',
+  },
+  {
+    id: '2',
+    name: 'Chamomile',
+    scientific_name: 'Matricaria chamomilla',
+    healing_properties: 'aromatic, anti-inflammatory, digestive aid',
+    direct_sunlight: false,
+    uses: 'hair dyes and sore skin/eczema',
+  },
+  {
+    id: '3',
+    name: 'Peppermint',
+    scientific_name: 'Metha x piperita',
+    healing_properties: 'invigorator, antiseptic, choleretic',
+    direct_sunlight: true,
+    uses: 'tea for sore throat, cough, and cold',
+  },
+  {
+    id: '4',
+    name: 'Holy Basil',
+    scientific_name: 'Ocimum tenuiflorum',
+    healing_properties: 'antimicrobial, expectorant, anti-inflammatory',
+    direct_sunlight: true,
+    uses: 'treating asthma and reducing fevers',
+  },
+  {
+    id: '5',
+    name: 'Hyssop',
+    scientific_name: 'Hyssopus officinalis',
+    healing_properties: 'relaxant, diuretic, wound-healing',
+    direct_sunlight: true,
+    uses: 'stimulates mucus production and helps with dry cough',
+  },
+  {
+    id: '6',
+    name: 'English Lavender',
+    scientific_name: 'Lavandula angustifolia Vera',
+    healing_properties: 'antiviral, antifungal, antioxidant',
+    direct_sunlight: true,
+    uses: 'effective sleep aid and cures headaches',
+  },
+  {
+    id: '7',
+    name: 'Elecampane',
+    scientific_name: 'nula helenium',
+    healing_properties: 'antimicrobial, diuretic, vermifuge',
+    direct_sunlight: false,
+    uses: 'treats cold and cough symptoms',
+  },
+];
+
+module.exports = { herbs };
