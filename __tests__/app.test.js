@@ -3,7 +3,7 @@ const setup = require('../data/setup');
 const request = require('supertest');
 const app = require('../lib/app');
 
-const herbs = require('../data/herb-data');
+const { herbs } = require('../data/herb-data');
 
 describe('backend-express-template routes', () => {
   beforeEach(() => {
@@ -17,7 +17,7 @@ describe('backend-express-template routes', () => {
         id: herb.id,
         name: herb.name,
         scientific_name: herb.scientific_name,
-        properties: herb.properties,
+        healing_properties: herb.healing_properties,
         direct_sunlight: herb.direct_sunlight,
         uses: herb.uses,
       };

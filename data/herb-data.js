@@ -42,7 +42,7 @@ const herbs = [
   {
     id: '6',
     name: 'English Lavender',
-    scientific_name: 'Lavandula angustifolia “Vera',
+    scientific_name: 'Lavandula angustifolia Vera',
     healing_properties: 'antiviral, antifungal, antioxidant',
     direct_sunlight: true,
     uses: 'effective sleep aid and cures headaches',
